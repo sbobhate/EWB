@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	
+    <ImageView
+        android:id="@+id/step1Tutorial"
+        android:src="@drawable/step1tutorial"
+        android:contentDescription="@string/step1_tutorial"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        />
+    
+    <ImageView
+        android:id="@+id/step1"
+        android:src="@drawable/step1"
+        android:contentDescription="@string/step1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/step1Tutorial"
+        android:layout_marginTop="30dp"
+        />
+    
+    <ImageView
+        android:id="@+id/blueprint"
+        android:src="@drawable/blueprint"
+        android:contentDescription="@string/blueprint"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/step1"
+        android:layout_marginTop="70dp"
+        />
+    
+    <ImageView
+        android:id="@+id/tab1"
+        android:src="@drawable/tab1"
+        android:layout_width="100dp"
+        android:layout_height="9dp"
+       	android:layout_alignParentBottom="true"
+       	android:layout_centerHorizontal="true"
+       	android:layout_marginBottom="20dp"
+       	/>
+    
+</RelativeLayout>

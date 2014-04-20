@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EWB Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home_header">Home Header</string>
+    <string name="instructions">Instructions</string>
+    <string name="reader">Reader</string>
+    <string name="home_footer">Footer</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="materials">Materials</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="step1">Step 1</string>
+    <string name="step2">Step 2</string>
+    <string name="step3">Step 3</string>
+    <string name="step4">Step 4</string>
+    <string name="step5">Step 5</string>
+    <string name="step6">Step 6</string>
+    <string name="step7">Step 7</string>
+    <string name="step1_tutorial">Step 1 Tutorial</string>
+    <string name="step2_tutorial">Step 2 Tutorial</string>
+    <string name="step3_tutorial">Step 3 Tutorial</string>
+    <string name="step4_tutorial">Step 4 Tutorial</string>
+    <string name="step5_tutorial">Step 5 Tutorial</string>
+    <string name="step6_tutorial">Step 6 Tutorial</string>
+    <string name="step7_tutorial">Step 7 Tutorial</string>
+    <string name="blueprint">Blueprint</string>
+    <string name="title_activity_reader">Reader</string>
+    <string name="title_activity_cdma_visual">CdmaVisual</string>
+    <string name="signal_quality">Signal Quality</string>
+    <string name="cdma_title">What is CDMA ?</string>
+    <string name="description">Code division multiple access (CDMA) is a channel access method used by various radio communication technologies.
+CDMA is an example of multiple access, which is where several transmitters can send information simultaneously over a single communication channel. This allows several users to share a band of frequencies (see bandwidth). To permit this to be achieved without undue interference between the users CDMA employs spread-spectrum technology and a special coding scheme (where each transmitter is assigned a code).
+CDMA is used as the access method in many mobile phone standards such as cdmaOne, CDMA2000 (the 3G evolution of cdmaOne), and WCDMA (the 3G standard used by GSM carriers), which are often referred to as simply CDMA.</string>
+	<string name="about_us">About Us</string>
+    <string name="shantanu">Shantanu Bobhate</string>
+	
+</resources>

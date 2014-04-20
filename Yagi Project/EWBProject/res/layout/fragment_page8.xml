@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<ImageView 
+        android:id="@+id/step7Tutorial"
+        android:src="@drawable/step7tutorial"
+        android:contentDescription="@string/step7_tutorial"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        />
+    
+    <ImageView 
+        android:id="@+id/step7"
+        android:src="@drawable/step7"
+        android:contentDescription="@string/step7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/step7Tutorial"
+        android:layout_marginTop="30dp"
+        />
+    
+</RelativeLayout>

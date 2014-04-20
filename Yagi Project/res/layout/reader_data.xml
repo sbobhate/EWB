@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <!-- <ImageView 
+        android:id="@+id/reader"
+        android:src="@drawable/reader"
+        android:contentDescription="@string/reader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        /> -->
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cdmadbm"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+        
+    <!-- <Button 
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cdmadbmbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:onClick="showCdmaVisual" /> -->
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cdmaecio"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cdmadbm"
+        android:layout_marginTop="20dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/evdodbm"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cdmaecio"
+        android:layout_marginTop="20dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/evdoecio"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/evdodbm"
+        android:layout_marginTop="20dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/evdosnr"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/evdoecio"
+        android:layout_marginTop="20dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gsmerror"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/evdosnr"
+        android:layout_marginTop="20dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gsm"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/gsmerror"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

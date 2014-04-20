@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<ImageView 
+        android:id="@+id/step6Tutorial"
+        android:src="@drawable/step6tutorial"
+        android:contentDescription="@string/step6_tutorial"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        />
+    
+    <ImageView 
+        android:id="@+id/step6"
+        android:src="@drawable/step6"
+        android:contentDescription="@string/step6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/step6Tutorial"
+        android:layout_marginTop="30dp"
+        />
+    
+</RelativeLayout>
