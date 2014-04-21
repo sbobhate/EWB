@@ -1,4 +1,4 @@
-EWB
-===
+YAGI PROJECT
+============
 
-Global App Initiative meets Engineers Without Borders
+Engineers Without Borders Yagi Antenna Project
